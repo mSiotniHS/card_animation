@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'CreditCard.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Scaffold(),
+      home: Scaffold(
+//        appBar: AppBar(title: Text("Card Animation")),
+        backgroundColor: Color.fromRGBO(246, 250, 254, 1),
+        body: Center(
+          child: CreditCard(),
+        ),
+      ),
     );
   }
 }
