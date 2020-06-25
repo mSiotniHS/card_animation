@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Scaffold(
-//        appBar: AppBar(title: Text("Card Animation")),
         backgroundColor: Color.fromRGBO(246, 250, 254, 1),
         body: Center(
           child: CreditCard(),
