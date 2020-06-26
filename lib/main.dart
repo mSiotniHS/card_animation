@@ -1,5 +1,5 @@
+import 'package:card_animation/CreditCard.dart';
 import 'package:flutter/material.dart';
-import 'CreditCard.dart';
 
 void main() => runApp(MyApp());
 
